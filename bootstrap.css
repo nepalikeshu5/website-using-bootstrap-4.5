@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    margin: 8px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nav-link {
+    border-left: 2px solid rgb(243, 240, 240);
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: 'Raleway', sans-serif;
+}
+
+section {
+    padding: 16px;
+    overflow: hidden;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(stationary.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#hero .container {
+    padding-top: 80px;
+
+
+}
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    margin: 0px 0px 10px 0px;
+
+}
+
+#hero h2 {
+    color: #eee;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open sans', sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.btn_get_started {
+    font-family: 'Poppins', sans-serif;
+    text-transform: Uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin: 10px;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.5s;
+
+
+}
+
+
+.btn_get_started:hover {
+    background-color: #009970;
+    border: 2px solid #009970;
+    color: whitesmoke;
+}
+
+.btn-outline-success {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    font-weight: 400;
+}
