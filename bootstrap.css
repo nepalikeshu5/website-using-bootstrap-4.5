@@ -49,7 +49,7 @@ section {
     width: 100%;
     height: 100vh;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(stationary.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(stationary1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
